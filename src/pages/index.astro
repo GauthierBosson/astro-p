@@ -1,0 +1,23 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body class="max-w-[300px] lg:max-w-[650px] mx-auto">
+		<Header title={SITE_TITLE} />
+		<main>
+			<div class="circle-container relative py-24 max-w-[100vw]">
+				<h1 class="text-xl md:text-4xl"><span class="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-lg md:text-2xl lg:text-6xl font-black">Full-stack developer</span><br /> </h1>
+			</div>
+		</main>
+		<!--<Footer />-->
+	<script src="../lib/ColorCircle.js"></script>
+	</body>
+</html>
