@@ -47,6 +47,7 @@ class ColorCircle {
     }
 }
 
-const circle = new ColorCircle('red', { top: 70, left: 0});
-const circle2 = new ColorCircle('blue', { top: 70, left: 150});
-const circle3 = new ColorCircle('violet', { top: 70, left: 400});
+
+    const circle = new ColorCircle('red', { top: 70, left: 0});
+    const circle2 = new ColorCircle('blue', { top: 70, left: 150});
+    const circle3 = new ColorCircle('violet', { top: 70, left: 400});
